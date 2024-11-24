@@ -28,6 +28,11 @@ public class CountryLang implements Serializable{
 		return official;
 	}
 
+	@Override
+	public String toString() {
+		return "CountryLang [compositeId=" + compositeId + ", official=" + official + "]";
+	}
+
 	public void setOfficial(Character official) {
 		this.official = official;
 	}

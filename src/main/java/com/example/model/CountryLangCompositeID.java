@@ -16,6 +16,11 @@ public class CountryLangCompositeID implements Serializable {
 		this.lang = lang;
 	}
 
+	@Override
+	public String toString() {
+		return "CountryLangCompositeID [code=" + code + ", lang=" + lang + "]";
+	}
+
 	private static final long serialVersionUID = 1L;
 
 	@Column(name = "code")

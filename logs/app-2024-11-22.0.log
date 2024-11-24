@@ -1,0 +1,272 @@
+17:53:49.387 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:53:49.440 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:53:49.472 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:56:17.340 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.CountryLangRepoTest]: CountryLangRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:56:17.497 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.IntegrationOfReactAndWebservicesApplication for test class com.example.CountryLangRepoTest
+17:56:18.090 [main] INFO  com.example.CountryLangRepoTest - Starting CountryLangRepoTest using Java 17.0.12 with PID 132699 (started by mint in /home/mint/Downloads/example)
+17:56:18.093 [main] INFO  com.example.CountryLangRepoTest - No active profile set, falling back to 1 default profile: "default"
+17:56:18.803 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:56:18.923 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interface.
+17:56:19.767 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:56:19.972 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+17:56:20.087 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:56:20.930 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+17:56:21.022 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:56:22.057 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@713999c2
+17:56:22.060 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:56:22.295 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17:56:23.761 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:56:23.765 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:56:24.261 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+17:56:24.488 [main] INFO  com.example.CountryLangRepoTest - Started CountryLangRepoTest in 6.788 seconds (process running for 8.615)
+17:56:25.409 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:56:25.412 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:56:25.432 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:58:05.635 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.CountryLangRepoTest]: CountryLangRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:58:05.836 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.IntegrationOfReactAndWebservicesApplication for test class com.example.CountryLangRepoTest
+17:58:06.555 [main] INFO  com.example.CountryLangRepoTest - Starting CountryLangRepoTest using Java 17.0.12 with PID 132859 (started by mint in /home/mint/Downloads/example)
+17:58:06.559 [main] INFO  com.example.CountryLangRepoTest - No active profile set, falling back to 1 default profile: "default"
+17:58:07.589 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:58:07.672 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+17:58:08.154 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:58:08.272 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+17:58:08.326 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:58:08.699 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+17:58:08.741 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:58:09.195 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c53c235
+17:58:09.197 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:58:10.590 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17:58:11.407 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:58:11.411 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:58:11.711 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+17:58:11.790 [main] INFO  com.example.CountryLangRepoTest - Started CountryLangRepoTest in 5.795 seconds (process running for 7.999)
+17:58:12.520 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:58:12.531 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:58:12.556 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+17:59:17.715 [main] INFO  c.e.IntegrationOfReactAndWebservicesApplication - Starting IntegrationOfReactAndWebservicesApplication using Java 17.0.12 with PID 133005 (/home/mint/Downloads/example/target/classes started by mint in /home/mint/Downloads/example)
+17:59:17.718 [main] INFO  c.e.IntegrationOfReactAndWebservicesApplication - No active profile set, falling back to 1 default profile: "default"
+17:59:19.684 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+17:59:19.779 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interface.
+17:59:21.350 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8000 (http)
+17:59:21.417 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8000"]
+17:59:21.433 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:59:21.434 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+17:59:21.600 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:59:21.600 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3792 ms
+17:59:21.876 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+17:59:21.954 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+17:59:22.020 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+17:59:22.427 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+17:59:22.465 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:59:23.022 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@674aa626
+17:59:23.024 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:59:23.150 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+17:59:24.512 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+17:59:24.526 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+17:59:25.164 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+17:59:25.258 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+17:59:25.904 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8000"]
+17:59:26.039 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8000 (http) with context path '/'
+17:59:26.075 [main] INFO  c.e.IntegrationOfReactAndWebservicesApplication - Started IntegrationOfReactAndWebservicesApplication in 8.891 seconds (process running for 9.68)
+17:59:35.318 [http-nio-8000-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+17:59:35.330 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+17:59:35.332 [http-nio-8000-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+17:59:35.464 [http-nio-8000-exec-1] INFO  c.example.controller.WorldController - Calling funcion: findAllByLimit(25)
+17:59:35.702 [http-nio-8000-exec-1] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+17:59:35.887 [http-nio-8000-exec-1] INFO  c.example.controller.WorldController - Returning response: Ok_200
+17:59:45.768 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+17:59:45.776 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+17:59:45.795 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:09:51.708 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.CountryLangRepoTest]: CountryLangRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:09:51.893 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.IntegrationOfReactAndWebservicesApplication for test class com.example.CountryLangRepoTest
+18:09:52.350 [main] INFO  com.example.CountryLangRepoTest - Starting CountryLangRepoTest using Java 17.0.12 with PID 133574 (started by mint in /home/mint/Downloads/example)
+18:09:52.356 [main] INFO  com.example.CountryLangRepoTest - No active profile set, falling back to 1 default profile: "default"
+18:09:53.108 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:09:53.230 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 109 ms. Found 1 JPA repository interface.
+18:09:53.693 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:09:53.754 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+18:09:53.791 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+18:09:54.133 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+18:09:54.169 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:09:54.616 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@677cb96e
+18:09:54.619 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:09:54.695 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+18:09:55.620 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18:09:55.625 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:09:55.949 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+18:09:56.051 [main] INFO  com.example.CountryLangRepoTest - Started CountryLangRepoTest in 4.065 seconds (process running for 5.566)
+18:09:56.736 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+18:09:56.866 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:09:56.876 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:09:56.900 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:32:52.902 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.CountryLangRepoTest]: CountryLangRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:32:53.159 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.IntegrationOfReactAndWebservicesApplication for test class com.example.CountryLangRepoTest
+18:32:53.831 [main] INFO  com.example.CountryLangRepoTest - Starting CountryLangRepoTest using Java 17.0.12 with PID 135507 (started by mint in /home/mint/Downloads/example)
+18:32:53.832 [main] INFO  com.example.CountryLangRepoTest - No active profile set, falling back to 1 default profile: "default"
+18:32:54.690 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:32:54.808 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 102 ms. Found 1 JPA repository interface.
+18:32:55.359 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:32:55.443 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+18:32:55.511 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+18:32:55.888 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+18:32:55.941 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:32:56.658 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@61911947
+18:32:56.662 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:32:56.744 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+18:32:58.273 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18:32:58.285 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:32:58.874 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+18:32:59.079 [main] INFO  com.example.CountryLangRepoTest - Started CountryLangRepoTest in 5.777 seconds (process running for 7.83)
+18:33:00.327 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+18:33:00.883 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+18:33:00.932 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:33:00.936 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:33:00.972 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+18:41:35.150 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.CountryLangRepoTest]: CountryLangRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+18:41:35.436 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.IntegrationOfReactAndWebservicesApplication for test class com.example.CountryLangRepoTest
+18:41:36.002 [main] INFO  com.example.CountryLangRepoTest - Starting CountryLangRepoTest using Java 17.0.12 with PID 136317 (started by mint in /home/mint/Downloads/example)
+18:41:36.003 [main] INFO  com.example.CountryLangRepoTest - No active profile set, falling back to 1 default profile: "default"
+18:41:36.693 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+18:41:36.763 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+18:41:37.402 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+18:41:37.482 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+18:41:37.537 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+18:41:37.921 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+18:41:37.954 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+18:41:38.483 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5873f3f0
+18:41:38.486 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+18:41:38.586 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+18:41:39.505 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+18:41:39.510 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+18:41:39.834 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+18:41:39.935 [main] INFO  com.example.CountryLangRepoTest - Started CountryLangRepoTest in 4.355 seconds (process running for 6.737)
+18:41:40.768 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+18:41:40.946 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+18:41:40.969 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+18:41:40.975 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+18:41:40.995 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:39:57.634 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.CountryLangRepoTest]: CountryLangRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:39:58.069 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.IntegrationOfReactAndWebservicesApplication for test class com.example.CountryLangRepoTest
+20:39:59.239 [main] INFO  com.example.CountryLangRepoTest - Starting CountryLangRepoTest using Java 17.0.12 with PID 5304 (started by mint in /home/mint/Downloads/example)
+20:39:59.243 [main] INFO  com.example.CountryLangRepoTest - No active profile set, falling back to 1 default profile: "default"
+20:40:00.677 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:40:00.826 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 120 ms. Found 1 JPA repository interface.
+20:40:01.775 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+20:40:01.949 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+20:40:02.063 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+20:40:02.837 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+20:40:02.911 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:40:03.651 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@677cb96e
+20:40:03.653 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:40:03.855 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+20:40:05.474 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+20:40:05.481 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:40:06.022 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+20:40:06.171 [main] INFO  com.example.CountryLangRepoTest - Started CountryLangRepoTest in 7.846 seconds (process running for 12.08)
+20:40:07.657 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:40:07.884 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:40:07.920 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:40:07.958 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+20:40:07.964 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:40:07.989 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:42:04.066 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.CountryLangRepoTest]: CountryLangRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:42:04.258 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.IntegrationOfReactAndWebservicesApplication for test class com.example.CountryLangRepoTest
+20:42:05.134 [main] INFO  com.example.CountryLangRepoTest - Starting CountryLangRepoTest using Java 17.0.12 with PID 5566 (started by mint in /home/mint/Downloads/example)
+20:42:05.150 [main] INFO  com.example.CountryLangRepoTest - No active profile set, falling back to 1 default profile: "default"
+20:42:06.727 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:42:06.937 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 185 ms. Found 1 JPA repository interface.
+20:42:07.486 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+20:42:07.559 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+20:42:07.616 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+20:42:08.018 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+20:42:08.065 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:42:08.590 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c53c235
+20:42:08.592 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:42:08.671 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+20:42:09.747 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+20:42:09.753 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:42:10.184 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+20:42:10.364 [main] INFO  com.example.CountryLangRepoTest - Started CountryLangRepoTest in 5.977 seconds (process running for 7.96)
+20:42:12.024 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:42:12.322 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:42:12.340 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:42:12.348 [main] INFO  com.example.CountryLangRepoTest - Returned result using stream: com.example.model.CountryLang@37b37bb5
+20:42:12.372 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+20:42:12.377 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:42:12.406 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:43:30.961 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.CountryLangRepoTest]: CountryLangRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:43:31.494 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.IntegrationOfReactAndWebservicesApplication for test class com.example.CountryLangRepoTest
+20:43:32.359 [main] INFO  com.example.CountryLangRepoTest - Starting CountryLangRepoTest using Java 17.0.12 with PID 5713 (started by mint in /home/mint/Downloads/example)
+20:43:32.362 [main] INFO  com.example.CountryLangRepoTest - No active profile set, falling back to 1 default profile: "default"
+20:43:33.267 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:43:33.388 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interface.
+20:43:33.926 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+20:43:33.986 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+20:43:34.060 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+20:43:34.459 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+20:43:34.505 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:43:34.986 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1cba0321
+20:43:34.989 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:43:35.077 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+20:43:37.104 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+20:43:37.115 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:43:37.578 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+20:43:37.678 [main] INFO  com.example.CountryLangRepoTest - Started CountryLangRepoTest in 5.945 seconds (process running for 8.944)
+20:43:38.585 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:43:38.715 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:43:38.750 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:43:38.757 [main] INFO  com.example.CountryLangRepoTest - Returned result using stream: CountryLang [compositeId=com.example.model.CountryLangCompositeID@8e2f1460, official=T]
+20:43:38.778 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+20:43:38.786 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:43:38.820 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+20:45:52.775 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.CountryLangRepoTest]: CountryLangRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:45:53.109 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.IntegrationOfReactAndWebservicesApplication for test class com.example.CountryLangRepoTest
+20:45:54.559 [main] INFO  com.example.CountryLangRepoTest - Starting CountryLangRepoTest using Java 17.0.12 with PID 5881 (started by mint in /home/mint/Downloads/example)
+20:45:54.563 [main] INFO  com.example.CountryLangRepoTest - No active profile set, falling back to 1 default profile: "default"
+20:45:55.528 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+20:45:55.606 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 69 ms. Found 1 JPA repository interface.
+20:45:56.089 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+20:45:56.157 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+20:45:56.212 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+20:45:56.624 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+20:45:56.665 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+20:45:57.213 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34cd65ac
+20:45:57.216 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+20:45:57.303 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+20:45:58.566 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+20:45:58.573 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+20:45:59.102 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+20:45:59.229 [main] INFO  com.example.CountryLangRepoTest - Started CountryLangRepoTest in 5.926 seconds (process running for 7.995)
+20:46:00.266 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:46:00.393 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:46:00.413 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+20:46:00.433 [main] INFO  com.example.CountryLangRepoTest - Returned result using stream: CountryLang [compositeId=CountryLangCompositeID [code=AFG, lang=Pashto], official=T]
+20:46:00.467 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+20:46:00.471 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+20:46:00.492 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+21:53:42.090 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.CountryLangRepoTest]: CountryLangRepoTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:53:42.480 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.IntegrationOfReactAndWebservicesApplication for test class com.example.CountryLangRepoTest
+21:53:43.570 [main] INFO  com.example.CountryLangRepoTest - Starting CountryLangRepoTest using Java 17.0.12 with PID 10824 (started by mint in /home/mint/Downloads/example)
+21:53:43.578 [main] INFO  com.example.CountryLangRepoTest - No active profile set, falling back to 1 default profile: "default"
+21:53:44.880 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+21:53:45.036 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interface.
+21:53:46.254 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+21:53:46.724 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+21:53:46.890 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+21:53:48.123 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+21:53:48.231 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+21:53:56.720 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c5406b
+21:53:56.722 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+21:53:57.884 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+21:53:59.385 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+21:53:59.579 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+21:54:00.312 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+21:54:00.525 [main] INFO  com.example.CountryLangRepoTest - Started CountryLangRepoTest in 17.713 seconds (process running for 22.476)
+21:54:03.835 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+21:54:05.992 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+21:54:07.207 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+21:54:07.531 [main] DEBUG org.hibernate.SQL - SELECT CountryCode as 'code', language as 'lang', IsOfficial as 'official' FROM countrylanguage LIMIT ?
+21:54:08.067 [main] INFO  com.example.CountryLangRepoTest - Returned result using stream: CountryLang [compositeId=CountryLangCompositeID [code=AFG, lang=Pashto], official=T]
+21:54:08.354 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+21:54:08.482 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+21:54:12.810 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
